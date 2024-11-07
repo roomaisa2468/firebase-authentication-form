@@ -1,0 +1,44 @@
+@font-face {
+    font-family:"RobotoSlab" ;
+    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+*{
+    font-family: RobotoSlab;
+}
+.navbar{
+    background-color: #1c2c70 !important;
+}
+.navbar-brand{
+    color: #ffff;
+}
+.navbar-brand:hover{
+    color: #ffff;
+}
+.btn{
+    background-color: #1c2c70;
+    color: #ffff;
+}
+.btn:hover{
+    background-color: #ffff;
+    color: #1c2c70;
+    border: 2px solid #1c2c70;
+
+}
+.swal2-confirm{
+    background-color:#1c2c70;
+}
+.images{
+    justify-content: space-around;
+}
+.bg-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.selectedImg{
+    border: 2px solid#1c2c70;
+}
+.card-body{
+    /* background-size: cover; */
+    /* background-position: bottom; */
+}
